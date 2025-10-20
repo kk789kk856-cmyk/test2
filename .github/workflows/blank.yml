@@ -4,7 +4,7 @@ on:
 
 jobs:
   call-template:
-    uses: org/kk789kk856-cmyk/test/check_deploy.yml@main
+    uses: org/kk789kk856-cmyk/test/.github/workflows/check_deploy.yml@main
     with:
       branch: ${{ github.ref }}
       event_name: ${{ github.event_name }}
